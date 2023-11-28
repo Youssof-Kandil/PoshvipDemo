@@ -3,14 +3,14 @@ import img1 from "../Assets/0d77bf0b-5ced-4b00-b684-108b7430120e.jpg"
 import img2 from "../Assets/1b3cdeb1-54d4-4feb-a788-770ece7caad2.jpg"
 import img3 from "../Assets/30358123-7f25-4f7a-a0d7-5ae9c90c810c.jpg"
 import img4 from "../Assets/a64e125e-2d35-4aa9-81cd-fedba8dcc023.jpg"
-import Logo from "../Assets/posh-logo-w-typeface.svg"
 import artist1 from "../Assets/artist-white.jpg"
 import Slider from 'react-slick'
+import Navbar from './Navbar'
 export default function EEcarousel() {
 
   
   const settings = {
-    // autoplay: true,
+    autoplay: true,
     dots: true,
     infinite: true,
     speed: 500,
@@ -21,14 +21,16 @@ export default function EEcarousel() {
   };
   return (
     <>
+    <Navbar/>
+
   <div className='carousel'>
         <Slider {...settings}>
-          <div className='position-relative py-3' >
+          <div className='position-relative py-5' >
             <div className="layer-blur bg1">
               <div className='layer'></div>
             </div>
             <div className='row py-5 justify-content-center align-items-center position-relative inner-carousel  '>
-              <div className='carousel-item-image  overflow-hidden col-md-3'>
+              <div className='carousel-item-image  overflow-hidden col-lg-3 col-md-4 '>
                 <img src={img1} alt="img1" className='w-100 h-100 inner-image rounded-4 ' />
               </div>
               <div className='carouel-item-data col-md-5'>
@@ -46,12 +48,12 @@ export default function EEcarousel() {
             </div>
             
           </div>
-          <div className='position-relative  py-3' >
+          <div className='position-relative  py-5' >
             <div className="layer-blur bg2">
               <div className='layer'></div>
             </div>
             <div className=' py-5 position-relative inner-carousel row justify-content-center align-items-center'>
-              <div className='carousel-item-image rounded-3 overflow-hidden col-md-3'>
+              <div className='carousel-item-image rounded-3 overflow-hidden col-lg-3 col-md-5 col-sm-6'>
                 <img src={img2} alt="img1" className='w-100 h-100 inner-image rounded-4' />
               </div>
               <div className='carouel-item-data col-md-5'>
@@ -69,12 +71,12 @@ export default function EEcarousel() {
             </div>
             
           </div>
-          <div className='position-relative  py-3' >
+          <div className='position-relative  py-5' >
             <div className="layer-blur bg3">
               <div className='layer'></div>
             </div>
             <div className='row py-5 justify-content-center align-items-center position-relative inner-carousel  '>
-              <div className='carousel-item-image  rounded-3 overflow-hidden col-md-3'>
+              <div className='carousel-item-image  rounded-3 overflow-hidden col-lg-3 col-md-5 col-sm-6'>
                 <img src={img3} alt="img1" className='w-100 h-100 inner-image rounded-4' />
               </div>
               <div className='carouel-item-data col-md-5'>
@@ -92,12 +94,12 @@ export default function EEcarousel() {
             </div>
             
           </div>
-          <div className='position-relative py-3'  >
+          <div className='position-relative py-5'  >
             <div className="layer-blur bg4">
               <div className='layer'></div>
             </div>
             <div className='row py-5 justify-content-center align-items-center position-relative inner-carousel  '>
-              <div className='carousel-item-image  rounded-3 overflow-hidden col-md-4 '>
+              <div className='carousel-item-image  rounded-3 overflow-hidden col-lg-4 col-md-5'>
                 <img src={img4} alt="img1" className='w-100 h-100 inner-image rounded-4' />
               </div>
               <div className='carouel-item-data col-md-5'>
