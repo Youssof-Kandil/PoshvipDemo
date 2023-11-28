@@ -11,6 +11,7 @@ export default function EEcarousel() {
   
   const settings = {
     autoplay: true,
+    autoplaySpeed: 5000,
     dots: true,
     infinite: true,
     speed: 500,
@@ -25,6 +26,29 @@ export default function EEcarousel() {
 
   <div className='carousel'>
         <Slider {...settings}>
+        <div className='position-relative  py-5' >
+            <div className="layer-blur bg3">
+              <div className='layer'></div>
+            </div>
+            <div className='row py-5 justify-content-center align-items-center position-relative inner-carousel  '>
+              <div className='carousel-item-image  rounded-3 overflow-hidden col-lg-3 col-md-5 col-sm-6'>
+                <img src={img3} alt="img1" className='w-100 h-100 inner-image rounded-4' />
+              </div>
+              <div className='carouel-item-data col-md-5'>
+                <h2>RUNAWAY NEW YORK PRESENTS: OPEN 'TIL MIDNIGHT</h2>
+                <h5>Public Records</h5>
+                <h5>Tuesday December 12, 2:00 AM</h5>
+                <div className='artist  rounded-5 d-flex justify-content-center align-items-center'>
+                  <img src={artist1} alt="artistname" className='me-2' />
+                  <h6 className='fw-bold'>ZUEZUEU</h6>
+                </div>
+                <button className="btn  bg-white  rounded-5" >
+                  Purchase Tickets
+                </button>
+              </div> 
+            </div>
+            
+          </div>
           <div className='position-relative py-5' >
             <div className="layer-blur bg1">
               <div className='layer'></div>
@@ -60,29 +84,6 @@ export default function EEcarousel() {
                 <h2>Miami Art Week Powered by Art Hearts Fashion Art Basel 2023</h2>
                 <h5>Fabel / Kiki on The River / Dream Rooftop / The Vessel</h5>
                 <h5>Friday December 8, 7:00 AM</h5>
-                <div className='artist  rounded-5 d-flex justify-content-center align-items-center'>
-                  <img src={artist1} alt="artistname" className='me-2' />
-                  <h6 className='fw-bold'>ZUEZUEU</h6>
-                </div>
-                <button className="btn  bg-white  rounded-5" >
-                  Purchase Tickets
-                </button>
-              </div> 
-            </div>
-            
-          </div>
-          <div className='position-relative  py-5' >
-            <div className="layer-blur bg3">
-              <div className='layer'></div>
-            </div>
-            <div className='row py-5 justify-content-center align-items-center position-relative inner-carousel  '>
-              <div className='carousel-item-image  rounded-3 overflow-hidden col-lg-3 col-md-5 col-sm-6'>
-                <img src={img3} alt="img1" className='w-100 h-100 inner-image rounded-4' />
-              </div>
-              <div className='carouel-item-data col-md-5'>
-                <h2>RUNAWAY NEW YORK PRESENTS: OPEN 'TIL MIDNIGHT</h2>
-                <h5>Public Records</h5>
-                <h5>Tuesday December 12, 2:00 AM</h5>
                 <div className='artist  rounded-5 d-flex justify-content-center align-items-center'>
                   <img src={artist1} alt="artistname" className='me-2' />
                   <h6 className='fw-bold'>ZUEZUEU</h6>

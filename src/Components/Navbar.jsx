@@ -4,7 +4,7 @@ import Logo from "../Assets/posh-logo-w-typeface.svg"
 export default function Navbar() {
   return (
     <>
-    <div className='nav d-flex justify-content-between align-items-center px-4 py-2 position-absolute '>
+    <div className='nav justify-content-between align-items-center px-4 py-2  '>
     <div className='logo '>
         <img src={Logo} alt="Logo of POSH"  className='w-50 '/>
     </div>
