@@ -21,15 +21,15 @@ export default function EEcarousel() {
   };
   return (
     <>
-  <div className='carousel text-white'>
+  <div className='carousel'>
         <Slider {...settings}>
           <div className='position-relative py-3' >
             <div className="layer-blur bg1">
               <div className='layer'></div>
             </div>
             <div className='row py-5 justify-content-center align-items-center position-relative inner-carousel  '>
-              <div className='carousel-item-image  rounded-3 overflow-hidden col-md-3'>
-                <img src={img1} alt="img1" className='w-100 h-100 inner-image' />
+              <div className='carousel-item-image  overflow-hidden col-md-3'>
+                <img src={img1} alt="img1" className='w-100 h-100 inner-image rounded-4 ' />
               </div>
               <div className='carouel-item-data col-md-5'>
                 <h2 className=''>End Of Semester Party</h2>
@@ -52,7 +52,7 @@ export default function EEcarousel() {
             </div>
             <div className=' py-5 position-relative inner-carousel row justify-content-center align-items-center'>
               <div className='carousel-item-image rounded-3 overflow-hidden col-md-3'>
-                <img src={img2} alt="img1" className='w-100 h-100 inner-image' />
+                <img src={img2} alt="img1" className='w-100 h-100 inner-image rounded-4' />
               </div>
               <div className='carouel-item-data col-md-5'>
                 <h2>Miami Art Week Powered by Art Hearts Fashion Art Basel 2023</h2>
@@ -75,7 +75,7 @@ export default function EEcarousel() {
             </div>
             <div className='row py-5 justify-content-center align-items-center position-relative inner-carousel  '>
               <div className='carousel-item-image  rounded-3 overflow-hidden col-md-3'>
-                <img src={img3} alt="img1" className='w-100 h-100 inner-image' />
+                <img src={img3} alt="img1" className='w-100 h-100 inner-image rounded-4' />
               </div>
               <div className='carouel-item-data col-md-5'>
                 <h2>RUNAWAY NEW YORK PRESENTS: OPEN 'TIL MIDNIGHT</h2>
@@ -98,7 +98,7 @@ export default function EEcarousel() {
             </div>
             <div className='row py-5 justify-content-center align-items-center position-relative inner-carousel  '>
               <div className='carousel-item-image  rounded-3 overflow-hidden col-md-4 '>
-                <img src={img4} alt="img1" className='w-100 h-100 inner-image' />
+                <img src={img4} alt="img1" className='w-100 h-100 inner-image rounded-4' />
               </div>
               <div className='carouel-item-data col-md-5'>
                 <h2>New York Fashion Week Powered by Art Hearts Fashion</h2>
