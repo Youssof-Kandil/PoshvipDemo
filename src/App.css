@@ -151,24 +151,63 @@ color: rgb(250, 250, 252);
     box-shadow: none;
   }
 
+  .phones{
+    color: rgb(250, 250, 252);
+    font-size: 15px;
+    letter-spacing: .185em;
+    font-weight: 300;
+    display: none !important;
+    border-top: 1px solid #303133;
+    border-bottom: 1px solid #303133;
+  }
 
+  .border-right {
+    border-right: 1px solid #303133;
+  }
 
-
+  .desktop{
+    display: flex !important;
+  }
+  .desktop button {
+    padding: 0 50px;
+  }
+  .filter-input{
+    padding: 15px 0px 15px 150px !important;
+  }
 
 
   /* MEDIA QUERIES */
+  @media (max-width: 978px) {
+    .desktop p{
+      display: none;
+    }
+    .desktop button {
+      margin: 0 !important;
+      padding: 15px !important;
+    }
+    .filter-input {
+      padding:  15px 0px 15px 0px !important;
+    }
+  }
   @media (max-width: 768px) {
     .carousel {
       display: none;
     }
+    .desktop{
+      display: none !important;
+    }
     .nav{
       position: static;
     }
+    .phones{
+      display: flex !important;
+    } 
   }
   @media (max-width: 578px) {
     .carousel {
       display: none;
     }
+
     .nav{
       display: none !important;
     }
