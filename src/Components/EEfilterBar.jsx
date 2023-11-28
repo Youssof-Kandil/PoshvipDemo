@@ -88,7 +88,7 @@ export default function EEfilterBar() {
         </div>
       </div>
 
-      <div className="phones flex-nowrap  row align-items-center justify-content-center">
+      <div className="phones flex-nowrap  row align-items-center justify-content-center mw-100">
         <div className="col-6 text-center py-2 border-right">
           <i class="fa-solid fa-star"></i> <span>FEATURED</span>
         </div>
