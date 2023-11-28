@@ -24,7 +24,7 @@ export default function EEcarousel() {
     <>
     <Navbar/>
 
-  <div className='carousel'>
+  <div className='carousel '>
         <Slider {...settings}>
         <div className='position-relative  py-5' >
             <div className="layer-blur bg3">

@@ -128,7 +128,9 @@ color: rgb(250, 250, 252);
   .slick-dots {
    bottom: 20px !important;
   }
-
+ .slick-slider{
+  width: 100% !important;
+ }
   .slick-dots li button {
     width: 12px !important; 
     height: 12px !important; 
