@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/PoshvipDemo/static/css/main.68650dae.css",
-    "main.js": "/PoshvipDemo/static/js/main.1e82184e.js",
+    "main.css": "/PoshvipDemo/static/css/main.c8c2168b.css",
+    "main.js": "/PoshvipDemo/static/js/main.8285bca9.js",
     "static/js/787.fdbdd19e.chunk.js": "/PoshvipDemo/static/js/787.fdbdd19e.chunk.js",
     "static/media/nine.gif": "/PoshvipDemo/static/media/nine.885d9b72a6c8b04a6618.gif",
     "static/media/ten.jpg": "/PoshvipDemo/static/media/ten.24e3e74126885fac2a5a.jpg",
@@ -41,12 +41,12 @@
     "static/media/posh-logo-w-typeface.svg": "/PoshvipDemo/static/media/posh-logo-w-typeface.b977b8c800a54f9f94b8eaea15518428.svg",
     "static/media/slick.woff": "/PoshvipDemo/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/PoshvipDemo/index.html",
-    "main.68650dae.css.map": "/PoshvipDemo/static/css/main.68650dae.css.map",
-    "main.1e82184e.js.map": "/PoshvipDemo/static/js/main.1e82184e.js.map",
+    "main.c8c2168b.css.map": "/PoshvipDemo/static/css/main.c8c2168b.css.map",
+    "main.8285bca9.js.map": "/PoshvipDemo/static/js/main.8285bca9.js.map",
     "787.fdbdd19e.chunk.js.map": "/PoshvipDemo/static/js/787.fdbdd19e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.68650dae.css",
-    "static/js/main.1e82184e.js"
+    "static/css/main.c8c2168b.css",
+    "static/js/main.8285bca9.js"
   ]
 }
